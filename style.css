@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+.container {
+  height: 100vh;
+}
+.logo {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 140px;
+}
+div ul{
+    list-style-type: none;
+    display: flex;
+    margin-left:690px;
+    justify-content: space-evenly;
+}
+li {
+padding: 40px 20px;
+font-size: 13px;
+cursor: pointer;
+font-weight: 600px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li:hover{
+    transition: 0.3s;
+    color: rgb(70, 70, 210);
+}
+.logo_{
+    margin: auto 0;
+    width: 130px;
+    height: 35px;
+} 
+.home{
+    width:100%;
+    height: 780px;
+}
+.text {
+    width:450px;
+    margin: -600px 50px;
+}
+.text h1{
+    font-size: 40px;
+    color: white;
+}
+.text p{
+    color: white;
+}
+.text button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(50, 139, 229);
+}
+main{
+    height: 700px;
+    width: 1000px;
+    margin: 1000px auto;
+}
+main h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main p{
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+.cosmetolog{
+    display: flex;
+    margin-top: 70px;
+    margin-left: -100px;
+}
+main img{
+padding: 40px 20px;
+}
+ .display {
+    display: flex;
+ }
+.text_{
+margin-top: 190px;
+
+}
+.display p{
+    font-size: 15px;
+    margin-left: 70px;
+}
+.display img{
+    margin-left: -100px;
+}
